@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h1tag{
+     @apply text-white
+}
+.mobile-nav{
+     @apply fixed top-20 right-0 bgprimary  w-full 
+}
+.mobile-nav  li{
+     @apply w-full h-full  text-center pt-5 border-b-2
+}
+.resizenav{
+     margin-left: 400px;
+}
+.arrange{
+     margin-top: 150px;
+}
+.pad1{
+     @apply pl-20 
+}
+.bgprimary{
+     background-color: #102548;
+}
+.bgsecondary{
+     background-color: #3B71CA;
+}
+.projects{
+
+     @apply  cursor-pointer absolute top-0 bottom-0 right-0 left-0 text-center bgprimary rounded-[20px] opacity-0 duration-500 hover:opacity-100 w-[350px] h-[300px]
+     
+}
+html{
+     scroll-behavior:smooth;
+}
